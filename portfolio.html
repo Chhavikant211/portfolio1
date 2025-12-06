@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chhavikant Bhagat</title>
+
+<!-- ----------- CSS INSIDE SAME FILE ----------- -->
+<style>
+
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:#e2e8f0;
+}
+
+/* Navbar */
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:15px 60px;
+  background:#0b1120;
+  position:sticky;
+  top:0;
+}
+
+header h1{
+  color:#38bdf8;
+}
+
+nav a{
+  color:#e2e8f0;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:17px;
+}
+
+nav a:hover{
+  color:#38bdf8;
+}
+
+/* Hero */
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:80px 60px;
+}
+
+.hero-text h2{
+  font-size:40px;
+}
+
+.hero-text span{
+  color:#38bdf8;
+}
+
+.hero-text p{
+  margin:20px 0;
+  width:450px;
+  line-height:1.5;
+}
+
+button{
+  padding:10px 20px;
+  margin-top:20px;
+  background:#38bdf8;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+  font-size:16px;
+}
+
+button:hover{
+  background:#0ea5e9;
+}
+
+/* Profile Picture */
+.hero img{
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  border:4px solid #38bdf8;
+  object-fit:cover;
+  box-shadow:0 0 20px #38bdf8;
+}
+
+/* Sections */
+section{
+  padding:60px;
+}
+
+h2{
+  margin-bottom:20px;
+  font-size:28px;
+  color:white;
+}
+
+/* Skills */
+.skills-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.skill{
+  padding:12px 20px;
+  background:#1e293b;
+  border-radius:8px;
+  font-size:16px;
+  border:1px solid #334155;
+}
+
+/* Projects */
+.project{
+  background:#1e293b;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:8px;
+  border:1px solid #334155;
+}
+
+/* Contact */
+.contact p{
+  margin:8px 0;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#0b1120;
+  margin-top:20px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <h1>Portfolio</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h2>Hello, I'm <span>Chhavikant Bhagat</span></h2>
+    <p>I am a Frontend Developer who loves to build modern, clean and responsive websites.</p>
+    <a href="resume.pdf" download>
+  <button>Download Resume</button>
+</a>
+
+  </div>
+
+  <!-- PROFILE PICTURE -->
+  <img src="profile.jpg" alt="Profile Photo">
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate frontend developer with a strong interest in UI design and 
+    modern web technologies. I enjoy creating beautiful interfaces and smooth user experiences.
+  </p>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">React</div>
+    <div class="skill">Tailwind</div>
+    <div class="skill">Git & GitHub</div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Project 1</h3>
+    <p>Short description of project. Tech Used: HTML, CSS, JS.</p>
+  </div>
+
+  <div class="project">
+    <h3>Project 2</h3>
+    <p>Short description of project. Tech Used: React, API.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact">
+    <p><strong>Email:</strong> chhavikantbhagat@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9156198032</p>
+    <p><strong>Location:</strong> Nagpur, India</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 Chhavikant Bhagat | All Rights Reserved
+</footer>
+
+</body>
+</html>
